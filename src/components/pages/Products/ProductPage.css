@@ -1,0 +1,29 @@
+.heading {
+  font-size: 4rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 0;
+  /* border-bottom: 3px solid #854ea2; */
+}
+
+.productsBorder {
+  margin-top: 0;
+  width: 100%;
+  height: 4px;
+  /* background: #854ea2; */
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.type-filter {
+  display: flex;
+}
+
+
+/* new css */
+

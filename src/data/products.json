@@ -1,0 +1,98 @@
+[
+  {
+    "name": "L’Artisan Parfumeur",
+    "price": "65.00",
+    "description": "A fresh and salty marine accord scent, inspired by the torrential waves of Brittany",
+    "image": "../images/perfume.jpg",
+    "productType": "Perfume"
+  
+  },
+  {
+    "name": "Empower Candle",
+    "price": "35.00",
+    "description": "A vanilla santal candle that offers a warm scent that provides an aroma that feels like a warm hug.",
+    "image": "../images/candles.jpg",
+    "productType": "Candle"
+  
+  },
+  {
+    "name": "Essence Candle",
+    "price": "23.00",
+    "description": "This candle possesses the irresistibly sophisticated tangy coolness of freshly picked blackcurrant berries.",
+    "image": "../images/essencecandle.jpg",
+    "productType": "Candle"
+   
+  },
+  {
+    "name": "Self-Care Bath Table",
+    "price": "19.95",
+    "description": "This extremely elegant bath table, will help you soak all of your worries away.",
+    "image": "../images/bathtable.jpg",
+    "productType": "Bath Table"
+
+  },
+  {
+    "name": "Artist of Life Workbook",
+    "price": "38.00",
+    "description": "The 2022 Artist of Life Workbook is a guided journal to help you create your most intentional and successful year.",
+    "image": "../images/artistoflifeworkbook.jpeg",
+    "productType": "Journal"
+  
+  },
+  {
+    "name": "Artist of Life Workbook (Digital)",
+    "price": "20.00",
+    "description": "The 2022 Artist of Life Workbook is a digital guided PDF journal",
+    "image": "../images/artistoflifewokbookdigital.jpeg",
+    "productType": "Digital"
+   
+  },
+  {
+    "name": "Weekly Reset Planner",
+    "price": "40.00",
+    "description": "The Weekly Reset Planner is an undated weekly planner to help you design a full and balanced life.",
+    "image": "../images/weeklyresetplanner.jpeg",
+    "productType": "Planner"
+ 
+  },
+  {
+    "name": "Weekly Reset Planner (Digital)",
+    "price": "15.00",
+    "description": "This digital planner includes a 9-page PDF to design balanced life.",
+    "image": "../images/weeklyresetplannerdigital.jpeg",
+    "productType": "Digital"
+  
+  },
+  {
+    "name": "Weekly Notepad",
+    "price": "19.00",
+    "description": "The Weekly Notepad is a undated weekly notepad to help you plan out your week at a glance, with goals and gratitude in mind.",
+    "image": "../images/weeklynotepad.jpeg",
+    "productType": "Notepad"
+   
+  },
+  {
+    "name": "Daily Notepad",
+    "price": "19.00",
+    "description": "The Daily Notepad is an undated daily notepad to help you design a productive, effective & meaningful day.",
+    "image": "../images/dailynotepad.jpeg",
+    "productType": "Notepad"
+  
+  },
+  {
+    "name": "Daily Planner",
+    "price": "26.00",
+    "description": "The Daily Planner by Lavendaire is a 184-page undated, daily planner to help you design a productive, effective & meaningful day.",
+    "image": "../images/dailyplanner.jpeg",
+    "productType": "Planner"
+    
+  },
+  {
+    "name": "Pastel Notebook",
+    "price": "12.00",
+    "description": "The Pastel Notebook is a 120-page blank notebook to give you space for self discovery, creativity, and freedom.",
+    "image": "../images/pastelnotebookset.jpeg",
+    "productType": "Notebook"
+    
+  }
+]
