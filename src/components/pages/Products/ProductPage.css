@@ -1,17 +1,11 @@
-.heading {
+  .heading {
   font-size: 4rem;
   text-align: center;
-  color: black;
+  /* color: #854ea2; */
   margin-bottom: 0;
   /* border-bottom: 3px solid #854ea2; */
 }
 
-.productsBorder {
-  margin-top: 0;
-  width: 50%;
-  height: 2px;
-  /* background: #854ea2; */
-}
 
 .filters {
   display: flex;
@@ -24,96 +18,3 @@
   display: flex;
 }
 
-
-/* new css */
-
-/* body {
-  margin:50px auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  font-family: "open sans";
-  font-size: 12px;
-  background-image: url("img/hero2.jpg");
-  background-size: cover;
-} */
-
-
-/* Products */
-.products>div {
-  margin: 10px;
-  padding: 20px;
-  width: 23%;
-  text-align: center;
-  border: 1px black solid;
-  
-}
-
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  margin:50px auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  justify-content: center;
-}
-
-.items {
-  height: 250px;
-  width: 175px;
-  
-}
-
-.name {
-  font-size: 16pt;
-  font-family: "raleway";
-  font-weight: bold;
-}
-
-
-/* add to cart button */
-.button {
-  color: black;
-  text-decoration: none;
-  font-family: "raleway";
-  font-size: 1vw;
-  font-weight: bold;
-  display: flex;
-  margin: 2px;
-  padding-bottom: 0.5vh;
-  width: 10vw;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 150%;
-  justify-content: center;
-  border: 1px black solid;
-}
-
-.button:hover {
-  background-color: rgba(245, 245, 245, 0.6);
-}
-
-/* Footer    
-footer {
-  display: flex;
-  padding: 2vw;
-  padding-right: 2.5vw;
-  padding-bottom: 0vh;
-  margin-top: auto;
-}
-
-aside {
-  margin-left: auto;
-  order: 2;
-}
-
-.social {
-  color: black;
-  padding: 1.5vw;
-  text-decoration: none;
-  font-size: 2vw;
-}
-
-.social:hover {
-  opacity: 0.5;
-} */

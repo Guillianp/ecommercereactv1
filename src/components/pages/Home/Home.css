@@ -1,6 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
+*{
+  margin:0px;
+  padding:0px;
 }
 
 /* .wrapper {
@@ -14,7 +14,6 @@ body {
   margin: 0;
   padding-top: 12vw;
   text-align: center; 
-  /* background-color: rgb(168, 168, 168);  */
 }
 
 .about h2 {
@@ -24,6 +23,11 @@ body {
   position: relative;
   
 }
+
+.about h1{
+font-size:36pt;
+}
+
 .purple {
   color: black;
   text-shadow: 2px 1px white;
@@ -36,7 +40,6 @@ body {
 .products {
   margin: auto;
   margin-top: 600px;
-  /* background-image: url(''); */
   min-width: 100%;
   min-height: 750px;
 }
@@ -59,24 +62,9 @@ body {
   color: #854ea225;
 }
 
-.productsPage {
-  background-color: black;
-  border: none;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  /* margin-left: 30%;
-  margin-right: 30%; */
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #fff;
-  /* border-radius: 25px; */
-  height: 40px;
-}
-
 .productsPage a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .discount-section {
@@ -98,13 +86,13 @@ body {
   font-size: 4em;
   margin-bottom: 10px;
 }
-.email {
+/* .email {
   background-color: rgb(179, 173, 173);
   border: none;
   outline: none;
   color: black;
   font-family: "Poppins", sans-serif;
-}
+} */
 
 input {
   visibility: visible;
@@ -131,19 +119,48 @@ form .submit:hover {
   cursor: pointer;
 }
 
+.container h2{
+  font-size: 24pt;
+  
+
+}
+
 /* logo */
-.container {
-  /* display: flex; */
+.logo{
+  height:600px;
+  width: 600px;
   align-content: center;
+  margin-left: 28.5vw;
+  margin-top: -12vw;
+  padding-top: 0%;
+}
+
+/* Shop Button */
+.productsPage {
+  color: black;
+  text-decoration:none;
+  font-family: "raleway";
+  font-size: 2vw;
+  font-weight: bold;
+  display: flex;
+  margin: 2px;
+  padding-bottom: 0.5vh;
+  width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 150%;
   justify-content: center;
-  /* position: absolute; */
-  /* top: 0vh;
-  left: 3vw; */
-  /* flex-direction: column; */
+  border: 1px black solid;
 }
 
 
+.productsPage:hover {
+  background-color: rgba(245, 245, 245, 0.6);
+}
 
+hr.solid {
+  border-top: 0.5px solid #b2a99d;
+}
 @media all and (max-width: 1025px) and (min-width: 760px) {
   .about,
   .products {
@@ -153,7 +170,7 @@ form .submit:hover {
 
   .about h2 {
     font-size: 2em;
-    /* width: 100%; */
+    width: 100%;
   }
 
   .discount-section {
@@ -204,7 +221,7 @@ form .submit:hover {
 }
 
 @media all and (min-width: 500) {
-  .mobilelogo {
+  .logo {
     display: none;
   }
 }

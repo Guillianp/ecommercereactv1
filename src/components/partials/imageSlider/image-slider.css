@@ -14,6 +14,7 @@ img {
   margin-left: 39vw;
   margin-right: 25vw;
   margin-top:2vw;
+  margin-bottom: 1vw;
 }
 
 .slider .slick-prev,
@@ -24,11 +25,11 @@ img {
 }
 
 .slider .slick-prev {
-  left: 5%;
+  left: 35%;
 }
 
 .slider .slick-next {
-  right: 5%;
+  right: 37%;
 }
 
 @media all and (max-width: 1025px) and (min-width: 760px) {
