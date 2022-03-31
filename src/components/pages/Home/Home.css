@@ -176,6 +176,15 @@ hr.solid {
   .discount-section {
     display: none;
   }
+
+  .logo{
+    height:600px;
+    width: 600px;
+    align-content: center;
+    margin-left: 28.5vw;
+    margin-top: -12vw;
+    padding-top: 0%;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -217,6 +226,14 @@ hr.solid {
 
   .discount-section {
     display: none;
+  }
+
+  .logo{
+    height:450px;
+    width: 450px;
+    align-content: center;
+    margin-top: -12vw;
+    padding-top: 0%;
   }
 }
 
