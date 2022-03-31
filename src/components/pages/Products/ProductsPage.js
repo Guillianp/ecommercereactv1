@@ -8,6 +8,7 @@ import './ProductPage.css';
 class ProductsPage extends Component {
     state ={
         products: ProductData
+    // Product Filter    
     }
     filterTypeHandler = e => {
         let value = e.target.value;
@@ -41,6 +42,7 @@ class ProductsPage extends Component {
         }
       };
 
+      // Price filter
       filterPriceHandler = e => {
         let value = e.target.value;
         let filteredProducts = null;

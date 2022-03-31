@@ -1,7 +1,9 @@
 footer {
   background: #b2a99d;
   color: white;
+  padding-bottom: 1vw;
 }
+
 
 .footer-container {
   max-width: 100%;
@@ -13,9 +15,6 @@ footer {
   flex-wrap: wrap-reverse;
 }
 
-.logo {
-  width: 180px;
-}
 
 .social-media {
   margin-left: 30px;
@@ -28,13 +27,23 @@ footer {
   transition: 0.3s linear;
 }
 .social-media a:hover {
-  color: #eee;
+  color: #d3d0d0;
 }
 
 .right-col h1 {
   font-size: 26px;
-  text-align: center;
+  
 }
+.right-col p{
+color: rgb(82, 80, 80);
+font-size: 12px;
+}
+
+.copyrights{
+color: rgb(82, 80, 80);
+font-size: 12px;
+}
+
 .border {
   width: 100%;
   height: 4px;
@@ -48,16 +57,16 @@ footer {
   flex-wrap: wrap;
 }
 .foot-email {
-  flex: 1;
-  padding: 10px 30px;
+  
+  padding: 5px 30px;
   font-size: 16px;
-  color: white;
-  /* background: #6a00a2; */
+  color: black;
+  background: white;
   border: none;
   font-weight: 500;
   outline: none;
-  /* border-radius: 30px; */
-  width: 230px;
+  border-radius: 10px;
+  width: 350px;
 }
 label {
   /* visibility: hidden; */
@@ -66,16 +75,18 @@ label {
 }
 .btn {
   font-size: 16px;
-  color: #854ea2;
+  color: #222122;
   background: white;
   border: none;
   width: 100px;
-  font-weight: 700;
+  font-weight: 100%;
   outline: none;
-  border-radius: 30px;
+  border-radius: 10px;
   margin-left: 20px;
   cursor: pointer;
   transition: opacity 0.3s linear;
+  padding: 5px 30px;
+  padding-bottom:100vw;
 }
 .btn:hover {
   opacity: 0.7;

@@ -4,22 +4,33 @@ import "slick-carousel/slick/slick-theme.css";
 import "./image-slider.css";
 import Slider from "react-slick";
 
+// images for slider
 const photos = [
     {
-        alt: "white flowers inside glass jar",
-        image: "../images/2.jpg"
+        alt: "product1",
+        image: "../images/artistoflifeworkbook.jpeg"
     },
     {
-        alt: "flowers",
-        image: "../images/3.jpg"
+        alt: "product2",
+        image: "../images/weeklyresetplanner.jpeg"
     },
     {
-        alt: "wild flowers display",
-        image: "../images/4.jpg"
+        alt: "product3",
+        image: "../images/artistoflifewokbookdigital.jpeg"
     },
+
+    {
+      alt: "product4",
+      image: "../images/weeklyresetplannerdigital.jpeg"
+  },
+
+  {
+    alt: "product5",
+    image: "../images/pastelnotebookset.jpeg"
+},
 ]
 
-
+// slider animation
 class ImageSlider extends Component {
   render() {
     const settings = {
@@ -38,7 +49,10 @@ class ImageSlider extends Component {
           {photos.map((pic=>{
               return (<div>
                   <img src={pic.image} alt={pic.alt} />
+                  <h2 className="slide-title">{pic.title}</h2>
+                  <h3 className="slide-text">{pic.description}</h3>
               </div>
+              
               )
           }))}
         </Slider>

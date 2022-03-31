@@ -9,18 +9,27 @@ class Home extends React.Component {
     render() {
       return (
         <div className="wrapper">
-            <main>
-                <section className="about">
-                    {/* {/* <h2>Be <span className="purple">Beautiful</span>! Be <span className="purple">You</span>!</h2> */}
-                    <p>Life is an art. Make it your masterpiece.</p>
-                    <ImageSlider></ImageSlider>
+            {/* <main> */}
+            <section>
+            <div className="container">
+                <h1><img src="src/img/highreslogo.png"  width="600px" height="600px"/></h1>
+                <a className="button" to='/products'><b>Shop</b></a>
+                <h2>All the tools you need to become the master of your life.</h2>
+            </div>  
+            
+            </section>
+               <section className="about">
+                <h1>Featured Products</h1>  
+                 <ImageSlider></ImageSlider>    
                 </section>
+
                 
-                <section className="products">
+                
+                {/* <section className="products">
                     <h3>All the tools you need to become the master of your life.</h3>
                     <div><span className="productsPage"><NavLink exact={true} to='/products'>SHOP</NavLink></span>
                     </div>
-                </section>
+                </section> */}
 
                 {/* <section className="discount-section">
                     <img className ="discount" src={girlGroup} alt="group of 3 girls"/>
@@ -37,7 +46,7 @@ class Home extends React.Component {
                     </div>
                     </section> */}
 
-            </main>
+            {/* </main> */}
             </div>
       )
     }
