@@ -1,99 +1,62 @@
 .wrapper {
   margin-top: 100px;
+  
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 35% 35% 35%;
+  grid-template-columns: 25rem 25rem 25rem;
   justify-content: center;
   align-items: center;
   width: 100%;
   text-align: center;
-  /* width: 80%; */
-  /* margin:50px auto; */
-  margin-top: 0%;
-  margin-bottom: 0%;
+  grid-gap: 20px;
+        
 }
 
-/* .productsList {
+.images {
+ 
+	/* width: 100%;
+  justify-content: center;
+  object-fit: cover; */
+
+  justify-self: center;
+  align-self: center; 
+  width: 175px;
+  height: 250px; 
+
+  margin-left:8.1vw; 
+  
+} 
+
+
+.productsList {
   margin-bottom: 10px;
-  height: 1000px;
+  height: 500px;
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-left: 10px;
-  margin-right: 10px;
+  border: 1px black solid;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   text-align: center;
-} */
+}
 
 .title {
   color: black;
+  font-family: raleway;
+  font-weight: bold;
 }
 
 .prices {
   font-weight: bold;
   font-size: 1.2em;
+  color: black;
 }
 
-/* .button {
-  padding: 10px;
-  width: 150px;
-  border: 1px solid white;
-  background-color: #854ea2;
-  border-radius: 5px;
-  color: white;
+.description{
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  color:black;
 }
-
-.button:hover {
-  cursor: pointer;
-  background-color: #bb6fe3;
-} */
-
-/* css 2 */
-body {
-  margin:50px auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  font-family: "open sans";
-  font-size: 12px;
-  /* background-image: url("..images/hero2.jpg"); */
-  background-size: cover;
-}
-
-
-/* Products */
-.products>div {
-  margin: 10px;
-  padding: 20px;
-  width: 23%;
-  text-align: center;
-  border: 1px black solid;
-  
-}
-
-.productsList {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  margin:50px auto;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  height: 30%;
-  justify-content: center;
-}
-
-.items {
-  height: 250px;
-  width: 175px;
-  
-}
-
-.name {
-  font-size: 16pt;
-  font-family: "raleway";
-  font-weight: bold;
-}
-
 
 /* add to cart button */
 .button {
@@ -117,7 +80,6 @@ body {
   background-color: rgba(245, 245, 245, 0.6);
 }
 
-
 @media all and (max-width: 1025px) {
   .grid {
     display: grid;
@@ -129,8 +91,8 @@ body {
   }
 
   .productsList {
-    height: 175px;
-    width: 250px;
+    height: 775px;
+    width: 98%;
   }
 }
 
@@ -145,3 +107,4 @@ body {
     width: 90%;
   }
 }
+

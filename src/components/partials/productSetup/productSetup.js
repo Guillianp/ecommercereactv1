@@ -6,7 +6,7 @@ const productSetup = ({products,}) => {
     const Products = () => products.map(item => (
         
             <div className="productsList">
-            <img src={item.image} alt={item.name} />
+            <img className= 'images' src={item.image} alt={item.name} />
             <h3 className="title">{item.name}</h3>
             <p className="prices">${item.price}</p>
             <button className="button">Add to Cart</button>
